@@ -1,6 +1,10 @@
 {
   "name": "nodejs-helloworld",
   "dependencies": {
+    "description": "Halo Dunia!", 
+    "main": "app.js", 
+    "author": "Pelatihan Red Hat", 
     "express": "~4.14.2"
   }
+  "scripts": { "start": "node app.js" },
 }
